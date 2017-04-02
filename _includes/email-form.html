@@ -1,0 +1,25 @@
+<form id="subscription-form" class="subscription-form" method="POST">
+  <h2> Subscríbete  </h2>
+  <p> Recibirás las actualizaciones semanales </p>
+  <a class="close-form" id="close-form">x</a>
+    
+    <input type="text" name="name" id="your-name" minlength="3" 
+    placeholder="Nombre" required> 
+
+    <input type="email" name="subscriber" id="email" 
+    placeholder="Correo" required>
+
+    <!-- return to site after submission --> 
+     <input type="hidden" name="_next" value="{{page.url}}" />
+
+    <textarea name="YES!" value="Note to self: Add to list" style="display:none"></textarea>
+
+     <input class="send-button" type="submit" value="Registrarse"> 
+    </form>
+</form>
+
+<!-- wrap email attribute in JS for extra security -->
+<script>
+    var contactform =  document.getElementById('subscription-form');
+    contactform.setAttribute('action', '//formspree.io/' + '{{site.author.email}}');
+</script>

@@ -1,0 +1,40 @@
+# Setup
+title:               Home
+tagline:             Home Page
+url:                 http://Chobito.github.io
+github_username:  chobito
+disqus:              chobito # get it on https://disqus.com/admin/
+
+# About/contact
+author:
+  name:                Pedro Romero Aguado
+  email:               "pedroromeroaguado@gmail.com" # email here 
+  avatar:              img/avatar.jpg 
+  profile-pic:         img/profile-pic.jpg
+
+
+
+# Build settings
+markdown:            kramdown
+permalink:           /:title
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: "" 
+      type: "posts" 
+    values:
+      layout: "post"
+      author: Pedro Romero
+  -
+    scope:
+      path: "" 
+      type: "pages" 
+    values:
+      layout: "page"
+      

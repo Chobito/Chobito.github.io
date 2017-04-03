@@ -28,13 +28,13 @@
     border-top: $tab-border;
     border-bottom: $tab-border;
     color: $tab-link-color;
-    width: 16%;
+    width: 25%;
     font-size: .9rem;
     @include bp-small { font-size: 1rem; }
     text-align: center;
     display: block;
     padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-bottom: .11rem;
     text-decoration: none;
     opacity: .5;
     border-top: 0;

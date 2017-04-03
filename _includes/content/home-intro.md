@@ -1,4 +1,4 @@
 
 # [Chobito's Page](/)
 
-Real Name: Pedro Romero Aguado
+The Page of Pedro Romero

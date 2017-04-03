@@ -1,6 +1,6 @@
 .subscription-form {
   max-width: $content-width - $spacing-unit;
-  background: #fff;
+  background: lightgreen;
   border: 5px solid $gray-1;
   @include box-shadow(0 4px 5px 5px $form-shadow-color);
   @include border-radius(3px);
@@ -22,11 +22,11 @@
     @include border-radius(3px);
     @include linear-gradient(to top, $gradient-color, #fff 25%);
     border: 1px solid $border-color;
-    font-size: 1rem;
+    font-size: 2rem;
     width: 25%;
     cursor: text;
-    padding: .5rem .25rem;
-    font-size: .85rem;
+    padding: .5rem .333rem;
+    font-size: .65rem;
 
     &:focus {
       border: 1px solid $border-color;
@@ -46,8 +46,8 @@
 .close-form {
   float: right;
   position: absolute;
-  top: 3%;
-  right: 2%;
+  top: 5%;
+  right: 5%;
   color: $gray-3;
   padding: .2rem;
   line-height: 1rem; 

@@ -1,6 +1,6 @@
 
 .home {
-  margin-top: -3rem; // fixed header not include in home page 
+  margin-top: -2rem; // fixed header not include in home page 
 }
 
 .mini-intro {
@@ -9,8 +9,8 @@
 
   h1, p {
     max-width: 75%;
-    float: left;
-    padding-right: .5rem;
+    float: right;
+    padding-right: 10rem;
   }
 
   h1 { 
@@ -28,13 +28,27 @@
   }
   
   .avatar {
-    float: right;
-    max-width: 25%;
-    border: 3px solid $img-border-color;
-    @include box-shadow(1px -1px 6px 1px $img-shadow-color);
+    float: left;
+    max-width: 22%;
+    border: 3.5px solid $img-border-color;
+    @include box-shadow(2px -1px 6px 6px $img-shadow-color);
     @include border-radius(15%);
-    margin-bottom: 1rem;
-  }
+    margin-bottom: 2rem;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+ }
+ 
+ .avatar:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+ }
 }
 
 
@@ -63,7 +77,7 @@
   
   ul ul {
     margin-top: -.4rem;
-      padding-left: 1rem;
+      padding-left: 2rem;
   }
 }
 

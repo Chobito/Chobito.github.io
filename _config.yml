@@ -10,7 +10,11 @@ author:
  name:                Pedro Romero Aguado
  email:               "pedroromeroaguado@gmail.com" # email here 
  profile-pic:         img/profile-pic.jpg
-
+ url:            	 www.google.es
+ facebook:          j4m3lg0
+ twitter:           chobito90
+ google_plus:       username
+ linkedin:          promero
 
 
 # Build settings
@@ -36,4 +40,5 @@ defaults:
       type: "pages" 
     values:
       layout: "page"
-      
+gems:
+  - jemoji      

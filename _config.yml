@@ -7,10 +7,9 @@ disqus:              chobito # get it on https://disqus.com/admin/
 
 # About/contact
 author:
-  name:                Pedro Romero Aguado
-  email:               "pedroromeroaguado@gmail.com" # email here 
-  avatar:              img/avatar.jpg 
-  profile-pic:         img/profile-pic.jpg
+ name:                Pedro Romero Aguado
+ email:               "pedroromeroaguado@gmail.com" # email here 
+ profile-pic:         img/profile-pic.jpg
 
 
 

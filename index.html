@@ -7,17 +7,16 @@ footer: none
 ---
 
 <div class="home">
-
+<div class="tab-content-repo">
+       {% include sidebar/repositories.html %}
+</div>
   <div class="mini-intro">
     <img class="avatar" src="{{site.author.profile-pic}}" alt="your-photo">
     {% capture home-intro %}
-      {% include content/home-intro.md %}
+    {% include content/home-intro.md %}
     {% endcapture %}
     {{ home-intro | markdownify }}
   </div>
-      <div class="span4 sidebar">
-       {% include sidebar/repositories.html %}
-    </div>
 
 <!-- SUBSCRIP TAB -->
   <ul class="accordion-tabs">

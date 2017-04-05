@@ -22,7 +22,14 @@
     color: inherit;
     }
   }
-
+div.well {
+    text-align: right;
+    margin-left: 400px;
+    margin-top: -25px;
+    padding-right: 70px;
+    width: 10%;
+    height: 10%;
+	}
   p {
      a { color: $base-link-color !important; }
   }

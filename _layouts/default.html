@@ -2,7 +2,8 @@
 <html lang="en">
 
   {% include head.html %}
-
+  {% include assets/css/default.html %}
+  {% include assets/js/default.html %}
   <body>
 
     <div class="container content"> 
@@ -11,10 +12,10 @@
       <main>
         {{ content }}
       </main>
-    
-      {% include footer.html %}
+		{% include footer.html %}
     </div>
 
+      
     {% include email-form.html %}
 
     {% include scripts.html %}

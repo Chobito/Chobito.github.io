@@ -34,7 +34,7 @@ pre code {
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: #f9f9f9;
+  background-color: inherit;
   border-radius: .25rem;
 
   pre {
@@ -47,6 +47,7 @@ pre code {
     padding-right: .75rem;
     padding-left: .25rem;
     color: #999;
+    background-color: inherit;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
        -moz-user-select: none;

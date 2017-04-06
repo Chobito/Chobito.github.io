@@ -62,3 +62,61 @@
 
 }
 
+
+.in-post-taglist li{
+	display: inline;
+	list-style-type: none;
+	color: gray;
+	text-align: center;
+}
+
+.in-post-taglist {
+	padding-bottom: 1rem;
+}
+
+.tags-full-list{
+	margin-bottom: 1rem;
+}
+
+.fa-tag {
+	padding: 5px;
+	color: #6a9fb5;
+	background: rgba(106, 156, 177, 0.2);
+	text-align: center;
+	border-radius: 4px;
+	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    text-decoration:none;
+    margin: 0.3rem;
+    
+    -webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.fa-tag:hover {
+	background: #6a9fb5;
+	color: #fff;
+}
+
+.simple-tag {
+	text-decoration: none;
+	padding: 0.2rem;
+}
+
+.tags-postlist{
+	border-top: 1px solid #eee;
+	padding-top: 1rem;
+}
+
+.tag-post {
+	list-style-type: circle;
+	-webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.tag-post li:hover {
+	list-style-type: disc;
+    padding-left: 0.5rem;
+	
+}

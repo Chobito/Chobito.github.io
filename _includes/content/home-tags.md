@@ -5,7 +5,7 @@ title: Tags
 
   <div class="tags-full-list">
 	{% for tag in site.tags %}
-		<a href="/menu/tagurls#{{ tag[0] | slugify }}/"
+		<a href="/menu/tagurls#{{ tag[0] | slugify }}"/
 		 class="simple-tag" style="font-size: {{ tag | last | size  |  times: 3 | plus: 80  }}%">
 			<i class="fa fa-tag" aria-hidden="true">
 

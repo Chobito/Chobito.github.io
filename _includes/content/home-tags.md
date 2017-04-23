@@ -3,16 +3,18 @@ layout: page
 title: Tags
 ---
 
-<div>
   <div class="tags-full-list">
-    {% for tag in site.tags %}
-		<a href="/menu/taglist#{{ tag[0] | slugify }}" class="simple-tag">
+	{% for tag in site.tags %}
+		<a href="/menu/tagurls#{{ tag[0] | slugify }}/"
+		 class="simple-tag" style="font-size: {{ tag | last | size  |  times: 3 | plus: 80  }}%">
 			<i class="fa fa-tag" aria-hidden="true">
-				{{ tag[0] }}
+
+			{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
 			</i>
 		</a>
-    {% endfor %}
+	{% endfor %}
   </div>
+
 
   <div class="tags-postlist">
     {% for tag in site.tags %}

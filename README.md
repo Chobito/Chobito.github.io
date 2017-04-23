@@ -1,6 +1,6 @@
 # Pagina de Pedro Romero Aguado - Chobito.github.io
 
-_He Construit aquesta pagina basada en `jekyll` per el proyecte final de la asignatura CMS _
+_he Construit aquesta pagina basada en `jekyll` per el proyecte final de la asignatura CMS
 
 ## Tech implemented
 - Tag cloud
